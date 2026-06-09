@@ -1,0 +1,13 @@
+body {
+    font-family:Bad Script, cursive;
+    background-color: white;
+    color: rgb(99, 61, 99);
+    text-align: center;
+    margin: 0px;
+    .navbar {
+        background-color: rgb(99, 61, 99);
+        justify-content: center;
+        display: flex;
+        height: inherit;
+    }
+}
