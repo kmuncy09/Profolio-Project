@@ -15,9 +15,11 @@ body {
         background-color: rgb(99, 61, 99);
         justify-content: center;
         display: flex;
-        height: inherit;
         color: #A2CF7D;
         margin: 2px;
+        position: sticky;
+        top: 0;
+        font-size: 16px;
         a {
             color: #A2CF7D;
             align-items:center;
