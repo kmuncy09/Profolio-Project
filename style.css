@@ -16,6 +16,7 @@ body {
         justify-content: center;
         display: flex;
         color: #A2CF7D;
+        margin-top: 0px;
         margin: 2px;
         position: sticky;
         top: 0;
