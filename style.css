@@ -1,10 +1,11 @@
 body {
     font-family:Bad Script, cursive;
-    background-color: #A2CF7D;
     color: rgb(99, 61, 99);
     text-align: center;
     margin: 10px;
     font-size: 24px;
+    background-image: assets\Forest.jpg;
+    background-size: cover;
     a {
         color: rgb(99, 61, 99);
         p {
@@ -114,4 +115,10 @@ body {
         padding: 20px;
         text-align: center;
     }
+    p {
+        text-align: left;
+    }
+    ul {
+            text-align: left;
+        }
 /*Grid made with help from AI.*/
