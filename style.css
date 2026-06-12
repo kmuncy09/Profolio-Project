@@ -127,6 +127,13 @@ ul {
     padding: 5px;
     padding-left:20px;
     margin: 20px;
+    a {
+        color: lightblue
+    }
+    img {
+        width: 300px;
+        align-items: left;
+    }
 }
 /*Grid made with help from AI.*/
 /*AI used to help place text over the images*/
