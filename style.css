@@ -29,7 +29,7 @@ img {
     margin-top: 0px;
     margin: 2px;
     top: 0;
-    font-size: 18px;
+    font-size: 26px;
     padding: 10px;
     align-items: center
 }
@@ -128,12 +128,17 @@ ul {
     padding-left:20px;
     margin: 20px;
     a {
-        color: lightblue
+        color: rgb(148, 204, 223)
     }
     img {
-        width: 300px;
+        width: 1000px;
+        height: auto;
         align-items: left;
     }
+}
+.Interest-images {
+    width:300px;
+    height: 300px;
 }
 /*Grid made with help from AI.*/
 /*AI used to help place text over the images*/
