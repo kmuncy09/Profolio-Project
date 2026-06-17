@@ -85,11 +85,11 @@ img {
     grid-column: 1;
     grid-row: 2;
 }
-.Technical-Skills:hover {
+.Learned-Skills:hover {
     scale: 1.05;
     transition: 0.2s;
 }
-.Technical-Skills {
+.Learned-Skills {
     grid-column: 3;
     grid-row: 2;
 }
@@ -135,10 +135,13 @@ ul {
         height: auto;
         align-items: left;
     }
-}
-.Interest-images {
-    width:300px;
-    height: 300px;
+    .Interest-images {
+        img {
+            height:400px;
+            width: 300px;
+        }
+        display: inline;
+    }
 }
 /*Grid made with help from AI.*/
 /*AI used to help place text over the images*/
