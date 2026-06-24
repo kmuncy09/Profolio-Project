@@ -35,7 +35,7 @@ img {
 }
 .rooms {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
     gap:0px;
     justify-content: center;
@@ -160,6 +160,27 @@ ul {
             width:600px;
             align-items:right;
         }
+    }
+}
+.reach-out{
+    background-color: white;
+    color: #536840;
+    padding: 20px;
+    margin: 20px;
+    .thanks {
+        display:none;
+        p{
+            text-align: center;
+            font-size: 32px;
+        }
+    }
+    input {
+        font-size: 20px;
+    }
+    button {
+        color:white;
+        background-color:#536840;
+        font-size: 20px;
     }
 }
 /*Grid made with help from AI.*/
