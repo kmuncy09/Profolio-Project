@@ -124,8 +124,7 @@ ul {
 .input-container .input {
     background-color: white;
     color: #536840;
-    padding: 5px;
-    padding-left:20px;
+    padding: 20px;
     margin: 20px;
     a {
         color: #498597;
@@ -141,6 +140,26 @@ ul {
             width: 300px;
         }
         display: inline;
+    }
+    .AM-images {
+        img {
+            height:800px;
+            width:600px;
+        }
+    }
+    .O-images {
+        img {
+            height:800px;
+            width:600px;
+            align-items:left;
+        }
+    }
+    .S-images {
+        img {
+            height:800px;
+            width:600px;
+            align-items:right;
+        }
     }
 }
 /*Grid made with help from AI.*/
