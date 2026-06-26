@@ -183,5 +183,22 @@ ul {
         font-size: 20px;
     }
 }
+.carousel-track-container {
+    position: relative;
+    overflow:hidden;
+}
+.carousel-track {
+    display:flex;
+    transition: transform 0.6s ease-in-out;
+    width: 100%;
+}
+.carousel-slide {
+    min-width: 100%;
+    img {
+        width:100%
+        display: block;
+        object-fit: cover;
+    }
+}
 /*Grid made with help from AI.*/
 /*AI used to help place text over the images*/
