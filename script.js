@@ -3,8 +3,8 @@ let messageInput= document.querySelector("input");
 let thanks=document.querySelector(".thanks");
 let previousButton=document.querySelector(".previous");
 let nextButton=document.querySelector(".next");
-let track=document.querySelector(".carousel-track");
-let slides=document.querySelector(".carousel-slide");
+let carouselTrack=document.querySelectorAll(".carousel-track");
+let slides=document.querySelectorAll(".carousel-slide");
 
 buttonSubmit.addEventListener('click', function(){
     messageInput.style.display="none";
@@ -15,9 +15,9 @@ let currentIndex = 0;
 let totalSlides=slides.length;
 
 function updateCarousel() {
-    track.style.transform= `translateX(-${currentIndex * 100}%)`;
+    carouselTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
-nextButton.addEventListener('click', function(){
+nextButton.addEventListener("click", function () {
     if (currentIndex < totalSlides -1) {
         currentIndex++;
     } else {
@@ -25,7 +25,7 @@ nextButton.addEventListener('click', function(){
     }
     updateCarousel();
 });
-previousButton.addEventListener('click', function(){
+previousButton.addEventListener("click", function () {
     if (currentIndex > 0) {
         currentIndex--;
     } else {
