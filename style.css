@@ -3,7 +3,7 @@ body {
     color: #536840;
     text-align: center;
     margin: 10px;
-    font-size: 24px;
+    font-size: 28px;
     z-index: 2;
     background-image: url(assets/Wood-Wall.jpg);
     /*-size: cover; */
@@ -29,7 +29,6 @@ img {
     margin-top: 0px;
     margin: 2px;
     top: 0;
-    font-size: 26px;
     padding: 10px;
     align-items: center
 }
@@ -211,6 +210,8 @@ ul {
     font-size: 16px;
     padding: 5px;
     margin: 10px;
+    background-color:#536840;
+    color: white;
 }
 .next {
     right: 10px;
@@ -220,6 +221,8 @@ ul {
     user-select: none;
     padding: 5px;
     margin-bottom: 15px;
+    background-color:#536840;
+    color: white;
 }
 /*Grid made with help from AI.*/
 /*AI used to help place text over the images*/
