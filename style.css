@@ -8,7 +8,7 @@ body {
     background-image: url(assets/Wood-Wall.jpg);
     /*-size: cover; */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 a {
