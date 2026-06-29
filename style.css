@@ -2,8 +2,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #536840;
     text-align: center;
-    margin: 10px;
-    font-size: 28px;
+    margin: 0.2vw;
+    font-size:2.5vw;
     z-index: 2;
     background-image: url(assets/Wood-Wall.jpg);
     /*-size: cover; */
@@ -14,42 +14,44 @@ body {
 a {
     color: white;
     p {
-        font-size: 28px;
+        font-size: 2.5tw;
     }
 }
 img {
     width: 100%;
-    height: 300px;
+    height: 50vh;
 }
 .navbar {
     background-color: #536840;
     justify-content: center;
     display: flex;
     color: white;
-    margin-top: 0px;
-    margin: 2px;
+    margin-top: 0vh;
+    margin: 1vw;
     top: 0;
-    padding: 10px;
+    padding: 1vw;
     align-items: center
 }
 .rooms {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
-    gap:0px;
+    gap:0vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
     overflow: hidden;
-    margin:0px;
+    margin:1vw;
+    margin-top: 0vw;
     position: relative;
     img {
-        width: 400px;
-        height: 300px;
+        width: 34vw;
+        height: 55vh;
         display: block;
-        margin: 0px;
+        margin: 0vw;
         position: relative;
+        size: cover;
     }
 }
 .About-Me:hover {
@@ -109,9 +111,9 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.678);
     color: white;
-    padding: 20px;
+    padding: 1vw;
     text-align: center;
 }
 p {
@@ -123,40 +125,34 @@ ul {
 .input-container .input {
     background-color: white;
     color: #536840;
-    padding: 20px;
-    margin: 20px;
+    padding: 1vw;
+    margin: 1vw;
     a {
         color: #498597;
     }
     img {
-        width: 1000px;
+        width: 50vw;
         height: auto;
         align-items: left;
     }
     .Interest-images {
         img {
-            height:400px;
-            width: 300px;
+            height:45vh;
+            width: 20vw;
         }
         display: inline;
     }
-    .AM-images {
-        img {
-            height:800px;
-            width:600px;
-        }
-    }
     .O-images {
         img {
-            height:800px;
-            width:600px;
+            height:40vh;
+            width:30vw;
             align-items:left;
         }
     }
     .S-images {
         img {
-            height:800px;
-            width:600px;
+            height:40vh;
+            width:30vw;
             align-items:right;
         }
     }
@@ -164,29 +160,29 @@ ul {
 .reach-out{
     background-color: white;
     color: #536840;
-    padding: 20px;
-    margin: 20px;
+    padding: 1vw;
+    margin: 1vw;
     .thanks {
         display:none;
         p{
             text-align: center;
-            font-size: 32px;
+            font-size: 2.5vw;
         }
     }
     input {
-        font-size: 20px;
+        font-size: 2.5vw;
     }
     button {
         color:white;
         background-color:#536840;
-        font-size: 20px;
+        font-size: 2vw;
     }
 }
 .carousel-track-container {
     position: relative;
     overflow:hidden;
-    max-width: 800px;
-    height: 800px;
+    width: 50vw;
+    height: 80vh;
     margin: 0 auto;
 }
 .carousel-track {
@@ -198,29 +194,28 @@ ul {
     min-width: 100%;
     img {
         width: 100%;
-        height: 800px;
+        height: 80vh;
         display: block;
         object-fit: cover;
     }
 }
 .previous {
-    left:10px;
+    left:1vw;
     position: absolute;
     transform: translateY(-50%);
-    font-size: 16px;
-    padding: 5px;
-    margin: 10px;
+    font-size: 2vw;
+    padding: 0.5vw;
+    margin: 2vw;
     background-color:#536840;
     color: white;
 }
 .next {
-    right: 10px;
+    right: 1vw;
     position: absolute;
-    transform: translateY(-50%);
-    font-size: 16px;
-    user-select: none;
-    padding: 5px;
-    margin-bottom: 15px;
+    transform: translateY(-100%);
+    font-size: 2vw;
+    padding: 0.5vw;
+    margin-bottom: 2vh;
     background-color:#536840;
     color: white;
 }
