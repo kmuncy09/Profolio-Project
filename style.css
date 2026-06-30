@@ -30,7 +30,8 @@ img {
     margin: 1vw;
     top: 0;
     padding: 1vw;
-    align-items: center
+    align-items: center;
+    border-radius: 1vw;
 }
 .rooms {
     display: grid;
@@ -127,6 +128,7 @@ ul {
     color: #536840;
     padding: 1vw;
     margin: 1vw;
+    border-radius: 1vw;
     a {
         color: #498597;
     }
