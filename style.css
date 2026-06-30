@@ -23,6 +23,18 @@ img {
 }
 .navbar {
     background-color: #536840;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    margin-top: 0vh;
+    margin: 1vw;
+    top: 0;
+    padding: 1vw;
+    align-items: center;
+    border-radius: 1vw;
+}
+.title {
+    background-color: #536840;
     justify-content: center;
     display: flex;
     color: white;
@@ -126,7 +138,7 @@ ul {
 .input-container .input {
     background-color: white;
     color: #536840;
-    padding: 1vw;
+    padding: 2vw;
     margin: 1vw;
     border-radius: 1vw;
     a {
@@ -159,11 +171,19 @@ ul {
         }
     }
 }
+.input-container .title-input {
+    background-color: #f6f6f6;
+    color: #536840;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
 .reach-out{
     background-color: white;
     color: #536840;
     padding: 1vw;
     margin: 1vw;
+    border-radius: 1vw;
     .thanks {
         display:none;
         p{
