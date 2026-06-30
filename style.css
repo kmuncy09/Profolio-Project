@@ -245,7 +245,7 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 /*Grid made with help from AI.*/
-/*AI used to help place text over the images*/
+/*AI used to help place text over the images*S/
